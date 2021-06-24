@@ -1,0 +1,58 @@
+.footer_container{
+    height: 270px;
+    background-color: #FFECB3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.central{
+    background-color: #FFECB3;
+}
+
+.email{
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    margin-top: 106px;
+    margin-left: 54px;
+    background-color: #FFECB3;
+}
+.social_net{
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    margin-top: 77px;
+    margin-left: 25px;
+    background-color: #FFECB3;
+}
+.vk{
+    margin-top: 31px;
+    margin-left: 25px;
+}
+.facebook{
+    margin-top: 31px;
+    margin-left: 69px;
+}
+.youtube{
+    margin-top: 31px;
+    margin-left: 69px;
+}
+.agreement{
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+    margin-top: 106px;
+    margin-left: 85px;
+    background-color: #FFECB3;
+}
+
+a { 
+    color:black;
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+
+a:hover {
+    color: #CE242B; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+}
+
+
+
+

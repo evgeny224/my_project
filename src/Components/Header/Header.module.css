@@ -1,0 +1,44 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    max-width: 1140px;
+    background-color: #FFECB3;
+    border-bottom: 2px solid currentColor;
+    /* тень */
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+}
+
+.logo_menu__item{
+    width: 50px;
+    height: 50px;
+}
+
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+    margin: 0;
+    height: 65px;
+    width: 1115px;
+    margin: 0 auto;
+}
+
+.header__menu li{
+    list-style-type: none; 
+}
+
+.item{
+    width: 350px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menu__item{
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+}
+
