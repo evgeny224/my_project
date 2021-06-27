@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Slider from "./slider";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
+import SlickSliderFirst from "./Components/SlickSlider/SlickSlider";
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
     <div className={ style.body }>
       <Header />
       <Slider />
+      <SlickSliderFirst />
       <Footer />
 
     </div>
