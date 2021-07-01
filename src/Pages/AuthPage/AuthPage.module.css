@@ -1,134 +1,96 @@
-.registration_container{
+.login_content {
+    margin: 0 auto;
     position: relative;
-    height: 748px;
+    height: 548px;
     background-color: #FAFAFA;
 }
-.registration_content{
+.login{
     position: absolute;
-    top: 65px;
-    right: 373px;
-    height: 589px;
+    top: 58px;
+    right: 370px;
     width: 400px;
+    height: 403px;
     background-color: #FFECB3;
     border-radius: 10px;
 }
-.registration_title{
+.login_enter{
     position: absolute;
-    top: 62px;
-    right: 60px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
+    top: 315px; 
+    right: 86px ;
+    text-decoration: none;
+    color: white;
+    padding: 13px 89px;
+    background-color: #D33030;
+    border-radius: 20px;
 }
-.input_login_registration, .input_password_registration, .input_mail{
+.input_login, .input_password{
     width: 310px;
     height: 36px;
     border-radius: 10px;
     color:  black;
 }
-.login_registration, .password_registration, .mail_title{
+.input_password{
+    position: absolute;
+    bottom: 198px;
+    left: 41px;
+}
+.input_login{
+    position: absolute;
+    top: 86px;
+    left: 41px;
+}
+.login_title, .password_title{
     font-family: 'Noto Serif', serif;
     font-size: 16px;
     font-weight: 700;
 }
-.registration_btn{
+.login_title{
+    position: absolute;
+    top: 60px;
+    left: 45px;
+}
+.password_title{
+    position: absolute;
+    top: 137px;
+    left: 45px;
+}
+.log_in_btn{
     background-color: #D33030;
     color: white;
     cursor: pointer;
     position: absolute;
-    top: 428px;
-    right: 71px;
+    top: 280px;
+    right: 87px;
     border-radius: 20px;
     padding: 13px 89px;
     font-size: 16px;
-}
-button, 
-button:active, 
-button:focus {
-    outline: none;
-}
-.input_login_registration{
-    position: absolute;
-    top: 161px;
-    right: 41px;
-}
-.login_registration{
-    position: absolute;
-    left: 45px;
-    top: 135px;
-}
-.input_password_registration{
-    position: absolute;
-    top: 236px;
-    right: 41px;
-}
-.password_registration{
-    position: absolute;
-    left: 45px;
-    top: 210px;
-}
-.mail_title{
-    position: absolute;
-    left: 45px;
-    top: 285px;
-}
-.input_mail{
-    position: absolute;
-    top: 311px;
-    right: 41px;
-}
-p{
-    margin-top: 30px;
-}
-.message{
-    margin: 0 auto; 
-    text-align: center;
-    border: 2px solid;
-    border-radius: 3px;
-    padding: 10px;
-    font-weight: bold;
-    width: 375px;
-    color:crimson;
-    background-color: #FAFAFA;
 }
 @media screen and (max-width: 1000px) {
     
 }
 
 @media(max-width: 767px){
-    .registration_content {
-        right: 5px;
-        width: 351px;
+    /* .login{
+        margin-left: 5px;
+    } */
+    .input_login, .input_password {
+        width: 265px;
     }
-    .registration_title {
-        right: 38px;
+    .login_enter {
+        right: 70px;
     }
-    .login_registration{
-        left: 26px;
+    .login {
+        top: 50px;
+        right: 0px;
+        width: 100%;
     }
-    .input_login_registration {
-        right: 18px;
+    .break {
+        height: 1px;
     }
-    .password_registration {
-        left: 26px;
+    .login_content {
+        height: 505px;
     }
-    .input_password_registration {
-        right: 18px;
+    .log_in_btn{
+        right: 66px;
     }
-    .mail_title {
-        left: 26px;
-    }
-    .input_mail{
-        right: 18px;
-    }
-    .registration_enter {
-        right: 50px;
-    }
-    .registration_btn {
-        right: 47px;
-    }
-    .message{
-        width: 327px;
-    }
-
 }

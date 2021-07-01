@@ -15,7 +15,7 @@ const Footer = () => {
                 <a href="https://www.facebook.com/"><img className={ style.facebook } src={ fb_logo } alt="fb_logo"></img></a>
                 <a href="https://www.youtube.com/"><img className={ style.youtube } src={ yt_logo } alt="yt_logo"></img></a>
             </div> 
-            <a href="agreement.php"><div className={ style.agreement }>Пользовательское соглашение</div></a>
+            <a href="/agreement"><div className={ style.agreement }>Пользовательское соглашение</div></a>
         </footer>
     )
 }
